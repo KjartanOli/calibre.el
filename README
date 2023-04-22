@@ -1,8 +1,20 @@
 Copyright (C) 2023  Kjartan Óli Águstsson
 See the end of the file for license conditions.
 
-Calibre.el is an Emacs package for interacting with Calibre
-https://calibre-ebook.com/ libraries.
+Calibre.el is a package for interacting with Calibre
+https://calibre-ebook.com/ libraries from Emacs. It's primary features
+include:
+- Easily switch between multiple libraries
+- List the contents of your library
+- Add and remove books from your library
+- Read your books in Emacs
+
+Calibre.el uses the built in SQLite support introduced in Emacs 29,
+and therefore requires an Emacs >= 29 compiled with SQLite support.
+Adding and removing books from a library requires a working calibredb
+executable, i.e. a Calibre installation.  Even if Calibre is not
+installed you will still be able to view the contents of existing
+libraries.
 
 This file is part of calibre.el.
 
